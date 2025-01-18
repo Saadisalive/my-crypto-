@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: grey;
+        }
+        nav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        li {
+            float: left;
+        }
+        li a {
+            display: block;
+        }
+        li a:hover {
+            background-color: aquamarine;
+        }
+    
+          </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#"> My Portifolio</a></li>
+            <li><a href="id-card.html"> ID CARD</a></li>
+            <li><a href="my skills.html">skills</a> </li>
+        </ul>
+    </nav>
+   
+    <h1>Saad Crypto Portifolio.</h1>
+<p>Today i want to talk about my Crypto Journey. </p>
+<br />
+<button onclick="crypto()">Crypto info!</button>
+<p id="crypto-info"></p>
+<button onclick="me()">About-me</button>
+ <div id="id-card"></div>
+<script>
+    function crypto() {
+        document.getElementById("crypto-info").innerHTML = "If you want to become a crypto king/queen.You have to practice more and more on demo account like there was many app or websites name binance,binomo and Hamster Kombat etc.Don't use all of your money only buy small and small shares. If you loss money so don't panic keep patince and tolerance.Practice more and more"
+    }
+   function me() {
+    document.getElementsByClassName("id-card").innerHTML = "I am crypto king.Want information about me click on my id card link on nav bar"
+   }
+</script>
+
+ 
+</body>
+</html>
